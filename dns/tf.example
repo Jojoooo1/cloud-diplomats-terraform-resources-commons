@@ -1,0 +1,4 @@
+project_id = "xxxxxxx"
+
+dns_name   = "xxxxxxx" # example: "cloud-diplomats-com"
+dns_domain = "xxxxxxx" # example: "cloud-diplomats.com."
