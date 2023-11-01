@@ -4,7 +4,7 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.7 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | >= 5.4.0 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | >= 5.4 |
 
 ## Providers
 
@@ -14,7 +14,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_dns_public_zone_cl_dpl"></a> [dns\_public\_zone\_cl\_dpl](#module\_dns\_public\_zone\_cl\_dpl) | terraform-google-modules/cloud-dns/google | 5.1.1 |
+| <a name="module_dns_public_zone"></a> [dns\_public\_zone](#module\_dns\_public\_zone) | terraform-google-modules/cloud-dns/google | 5.1.1 |
 
 ## Resources
 
