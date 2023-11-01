@@ -20,7 +20,7 @@ module "dns_public_zone" {
   domain      = var.dns_domain
   description = "DNS zone for ${var.dns_name} managed by Terraform"
 
-  recordsets = []
+  recordsets = var.recordsets
 
   labels = local.common_labels
 }

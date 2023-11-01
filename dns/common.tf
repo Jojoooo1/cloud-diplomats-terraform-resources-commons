@@ -3,7 +3,7 @@ terraform {
 
   # rand="$(echo $RANDOM)" && gsutil mb -p <project-name> -l us -b on "gs://tf-state-$rand" && gsutil versioning set on "gs://tf-state-$rand"
   backend "gcs" {
-    bucket = ""
+    bucket = "tf-state-15287"
     prefix = "terraform/state/dns"
   }
 

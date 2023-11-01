@@ -33,7 +33,7 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_domain"></a> [domain](#output\_domain) | Zone name servers. |
-| <a name="output_name_servers"></a> [name\_servers](#output\_name\_servers) | Zone name servers. |
-| <a name="output_type"></a> [type](#output\_type) | Zone name servers. |
+| <a name="output_domain"></a> [domain](#output\_domain) | domain |
+| <a name="output_name_servers"></a> [name\_servers](#output\_name\_servers) | Zone name servers |
+| <a name="output_type"></a> [type](#output\_type) | domaine type |
 <!-- END_TF_DOCS -->

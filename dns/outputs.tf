@@ -1,14 +1,14 @@
 output "domain" {
-  description = "Zone name servers."
-  value       = module.dns_public_zone_cl_dpl.domain
+  description = "domain"
+  value       = module.dns_public_zone.domain
 }
 
 output "type" {
-  description = "Zone name servers."
-  value       = module.dns_public_zone_cl_dpl.type
+  description = "domaine type"
+  value       = module.dns_public_zone.type
 }
 
 output "name_servers" {
-  description = "Zone name servers."
-  value       = module.dns_public_zone_cl_dpl.name_servers
+  description = "Zone name servers"
+  value       = module.dns_public_zone.name_servers
 }
