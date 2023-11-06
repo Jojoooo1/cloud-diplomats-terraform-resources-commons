@@ -3,7 +3,7 @@ terraform {
 
   # rand="$(echo $RANDOM)" && gsutil mb -p "<your-project-name>" -l us -b on "gs://tf-state-$rand" && gsutil versioning set on "gs://tf-state-$rand"
   backend "gcs" {
-    bucket = ""
+    bucket = "tf-state-10655"
     prefix = "terraform/state/oauth"
   }
 
